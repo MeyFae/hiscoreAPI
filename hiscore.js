@@ -1,6 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/
-html4/strict.dtd">
-<html>
 <script type="text/javascript">
 
 const app = require("express")();
@@ -87,12 +84,7 @@ async function getHighScores(playerType, playerName) {
       "level": 99,
       "xp": 200000000
     },
-    {
-      "name": "Woodcutting",
-      "rank": 15,
-      "level": 99,
-      "xp": 200000000
-    },
+   
     {
       "name": "Fishing",
       "rank": 9,
