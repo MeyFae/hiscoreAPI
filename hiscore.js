@@ -1,3 +1,6 @@
+<!DOCTYPE HTML>
+<html>
+<script type="text/javascript">
 <script type="text/javascript">
 
 const app = require("express")();
@@ -48,12 +51,7 @@ async function getHighScores(playerType, playerName) {
  "level"|: 1234,
  "xp": 1234
  },
-{
-      "name": "Total",
-      "rank": 1,
-      "level": 2277,
-      "xp": 4600000000
-    },
+
     {
       "name": "Attack",
       "rank": 15,
@@ -66,12 +64,7 @@ async function getHighScores(playerType, playerName) {
       "level": 99,
       "xp": 200000000
     },
-    {
-      "name": "Strength",
-      "rank": 18,
-      "level": 99,
-      "xp": 200000000
-    },
+ 
         {
       "name": "Magic",
       "rank": 32,
@@ -81,19 +74,6 @@ async function getHighScores(playerType, playerName) {
     {
       "name": "Cooking",
       "rank": 159,
-      "level": 99,
-      "xp": 200000000
-    },
-   
-    {
-      "name": "Fishing",
-      "rank": 9,
-      "level": 99,
-      "xp": 200000000
-    },
-    {
-      "name": "Firemaking",
-      "rank": 48,
       "level": 99,
       "xp": 200000000
     },
@@ -109,62 +89,14 @@ async function getHighScores(playerType, playerName) {
       "level": 99,
       "xp": 200000000
     },
+  
     {
-      "name": "Mining",
-      "rank": 25,
-      "level": 99,
-      "xp": 200000000
-    },
-    {
-      "name": "Herblore",
-      "rank": 5,
-      "level": 99,
-      "xp": 200000000
-    },
-    {
-      "name": "Agility",
-      "rank": 23,
-      "level": 99,
-      "xp": 200000000
-    },
-    {
-      "name": "Thieving",
-      "rank": 12,
-      "level": 99,
-      "xp": 200000000
-    },
-    {
-      "name": "Slayer",
-      "rank": 2,
-      "level": 99,
-      "xp": 200000000
-    },
-    {
-      "name": "Farming",
-      "rank": 19,
-      "level": 99,
-      "xp": 200000000
-    },
-    {
-      "name": "Runecrafting",
+      "name": "Crafting",
       "rank": 7,
       "level": 99,
       "xp": 200000000
     },
-    {
-      "name": "Hunter",
-      "rank": 4,
-      "level": 99,
-      "xp": 200000000
-    },
-    {
-      "name": "Construction",
-      "rank": 4,
-      "level": 99,
-      "xp": 200000000
-    }
-  },
-  "clues": {
+     "clues": {
     all: { rank: 453, score: 12345 },
     beginner: { rank: 52356, score: 2 },
     ...
@@ -192,6 +124,7 @@ async function getHighScores(playerType, playerName) {
       "rank": 375830,
       "score": 22
     },
+  ]
 
 module.exports = {
   spec: 'lib/**/*.spec.js',
